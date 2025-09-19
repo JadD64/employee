@@ -58,13 +58,9 @@ public class Employee{
     
     private int yearOfBirth (int yearOfBirth){
         int yearOfBirth = yearOfBirth();
+        return yearOfBirth();
     }
-    
-    private int yearOfBirth (int yearOfBirth){
-        return yearOfbirth();
     }
-    
-    
     }
     }
 }
