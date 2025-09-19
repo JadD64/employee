@@ -56,11 +56,11 @@ public class Employee{
         set unpaidHours = 0;
     }
     
-    private int set yearOfBirth (int yearOfBirth){
+    private int yearOfBirth (int yearOfBirth){
         int yearOfBirth = yearOfBirth();
     }
     
-    private int get yearOfBirth (int yearOfBirth){
+    private int yearOfBirth (int yearOfBirth){
         return yearOfbirth();
     }
     
