@@ -22,7 +22,7 @@ public class Employee{
     /**
      * Returns true is an employee is above 16 years old
      */
-    private int calculateAge(int currentYear){
+    public int calculateAge(int currentYear){
         return (currentYear - yearOfBirth);
     }
 
@@ -46,7 +46,7 @@ public class Employee{
     /*
      * Returns the net pay for the outstanding unpaid hours
      */
-    private double calculatePay(){
+    public double calculatePay(){
         return ((hourlyWage * unpaidHours) * (70/100));
     }
 
@@ -58,10 +58,10 @@ public class Employee{
         int unpaidHours = 0;
     }
     
-    private void yearOfBirth (int yearOfBirth){
+    public void yearOfBirth (int yearOfBirth){
         this.yearOfBirth = yearOfBirth;
     }
-     private int yearOfBirth (){
+     public int yearOfBirth (){
         return yearOfBirth();
     }
 }
