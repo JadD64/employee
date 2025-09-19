@@ -56,7 +56,10 @@ public class Employee{
         int unpaidHours = 0;
     }
     
-    private int yearOfBirth (int yearOfBirth){
-        return int yearOfBirth();
+    private void yearOfBirth (int yearOfBirth){
+        int yearOfBirth;
     }
+     private int yearOfBirth (){
+        return yearOfBirth();
     }
+}
