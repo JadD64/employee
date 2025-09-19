@@ -31,7 +31,7 @@ public class Employee{
      */
     public boolean canDrive(){
         int age = calculateAge(2025);
-        if (age => 16){
+        if (age >= 16){
             system.out.println("You can drive");
         }
         else{
@@ -52,8 +52,8 @@ public class Employee{
      * Output the payment record and resets unpaid hours
      */
     public void paySalary(){
-        system.out.println(fullname + "has recieved a wire transfer of " + calculatePay())
-        set unpaidHours = 0
+        system.out.println(fullname + "has recieved a wire transfer of " + calculatePay());
+        set unpaidHours = 0;
     }
     
     private int set yearOfBirth (int yearOfBirth){
