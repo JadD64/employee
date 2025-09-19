@@ -33,9 +33,11 @@ public class Employee{
         int age = calculateAge(2025);
         if (age >= 16){
             System.out.println("You can drive");
+            return true;
         }
         else{
             System.out.println("You can not drive. You must wait " + (16 - age) + " years");
+            return false;
         }
         }
         // to be completed
@@ -45,7 +47,7 @@ public class Employee{
      * Returns the net pay for the outstanding unpaid hours
      */
     private double calculatePay(){
-        System.out.println ((hourlyWage + unpaidHours) * (70/100));
+        return ((hourlyWage * unpaidHours) * (70/100));
     }
 
     /*
@@ -57,7 +59,7 @@ public class Employee{
     }
     
     private void yearOfBirth (int yearOfBirth){
-        int yearOfBirth;
+        this.yearOfBirth = yearOfBirth;
     }
      private int yearOfBirth (){
         return yearOfBirth();
